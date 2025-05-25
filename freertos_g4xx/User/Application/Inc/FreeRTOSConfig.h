@@ -15,7 +15,7 @@ extern uint32_t SystemCoreClock;
 #define configCPU_CLOCK_HZ                        (SystemCoreClock)
 /* 定义 SysTick 时钟频率. 当SysTick时钟频率与内核时钟频率不同时才可以定义.
  * 单位: Hz. 默认: 不定义 */
-#define configSYSTICK_CLOCK_HZ                    (configCPU_CLOCK_HZ / 8)
+// #define configSYSTICK_CLOCK_HZ                    (configCPU_CLOCK_HZ / 8)
 
 //-------- <<< Use Configuration Wizard in Context Menu >>> --------------------
 
