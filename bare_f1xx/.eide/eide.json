@@ -281,28 +281,10 @@
           "cpuName": "STM32F103RC"
         },
         "proType": 1,
-        "speed": 10000,
+        "speed": 8000,
         "otherCmds": ""
       },
-      "uploadConfigMap": {
-        "JLink": {
-          "bin": "",
-          "baseAddr": "",
-          "cpuInfo": {
-            "vendor": "ST",
-            "cpuName": "STM32F103RC"
-          },
-          "proType": 1,
-          "speed": 10000,
-          "otherCmds": ""
-        },
-        "OpenOCD": {
-          "bin": "",
-          "target": "stm32f1x",
-          "interface": "stlink",
-          "baseAddr": "0x08000000"
-        }
-      },
+      "uploadConfigMap": {},
       "custom_dep": {
         "name": "default",
         "incList": [
