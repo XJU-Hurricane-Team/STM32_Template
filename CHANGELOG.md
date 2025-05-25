@@ -1,5 +1,15 @@
 # Change Log
 
+### [v3.3.3] 2025-5-25
+
+***Fix***
+
+- FreeRTOS 模板中 SysTick 频率配置错误
+
+- SWD 频率设置过高导致有些 JLink 无法下载
+
+- H7 CSP QSPI 的 DMA 优先级配置不是宏定义
+
 ### [v3.3.2] 2025-5-19
 
 ***Fix***
